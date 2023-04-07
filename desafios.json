@@ -1,0 +1,18 @@
+[
+
+    {
+        "name": "Dia 01",
+        "description": "Tentei fazer um QR code component, cheguei perto. 😅",
+        "thumbnail": "../miniaturas/day01.jpg",
+        "liveDemoUrl": "../D1-QR code component/index.html"
+        
+    },
+
+    {
+        "name": "Dia 02",
+        "description": "Alinhar isso foi muito dificil, e 0 responsifidade 😭",
+        "thumbnail": "../miniaturas/day2.jpg",
+        "liveDemoUrl": "../D2-results-summary-component/index.html"
+        
+    }
+]
