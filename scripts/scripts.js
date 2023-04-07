@@ -5,12 +5,6 @@ const thumbnailsContainer = document.getElementById('thumbnailsContainer');
 fetch('../desafios.json')
     .then(response => response.json())
     .then(data => {
-        const challenge = data[0]; // especifica o primeiro objeto do array
-        console.log("name:" + challenge.name)
-        console.log("description: " + challenge.description)
-        console.log("thumbnail: " + challenge.thumbnail)
-        console.log("liveDemoUrl: " + challenge.liveDemoUrl)
-
         //iterar sobre os dados do json usando forEach
         data.forEach(challenge => {
             const thumbnail = document.createElement('div');
