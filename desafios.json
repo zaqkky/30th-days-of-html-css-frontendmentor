@@ -14,5 +14,12 @@
         "thumbnail": "../miniaturas/day2.jpg",
         "liveDemoUrl": "../D2-results-summary-component/index.html"
         
+    },
+    {
+        "name": "Dia 03",
+        "description": "tentei fazer um layout responsivo mais falhei 😭",
+        "thumbnail": "../miniaturas/day03.jpg",
+        "liveDemoUrl": "../D3 -Stats preview card/index.html"
+        
     }
 ]
