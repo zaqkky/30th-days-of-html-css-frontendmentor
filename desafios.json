@@ -21,5 +21,12 @@
         "thumbnail": "../miniaturas/day03.jpg",
         "liveDemoUrl": "../D3 -Stats preview card/index.html"
         
+    },
+    {
+        "name": "Dia 04",
+        "description": "rating componente era pra ser interativo, mas falhei. acontece",
+        "thumbnail": "../miniaturas/day04.jpg",
+        "liveDemoUrl": "../D4 - Interactive rating/index.html"
+        
     }
 ]
