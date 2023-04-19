@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./components/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;800&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+    <title>Interactive Rating</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./components/img/icon-star.svg" alt="star">
+            <h1>How did we do?</h1>
+        </header>
+        <main>
+            <section class="feedback">
+                <p>Please let us know how we did with your support request. All feedback is appreciated to help us
+                    improve our offering!</p>
+            </section>
+            <section class="evaluation-container">
+                <button class="btn" onclick="changeColor(this)">1</button>
+                <button class="btn" onclick="changeColor(this)">2</button>
+                <button class="btn" onclick="changeColor(this)">3</button>
+                <button class="btn" onclick="changeColor(this)">4</button>
+                <button class="btn" onclick="changeColor(this)">5</button>
+                <input class="enviar" type="submit" value="Submit">
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

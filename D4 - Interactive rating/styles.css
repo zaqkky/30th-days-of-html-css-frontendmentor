@@ -1,0 +1,62 @@
+body{
+    font-family: 'Overpass';
+    font-weight: 100;
+    background: hsl(216, 12%, 8%);
+}
+
+
+.container{
+    margin: 8em auto;
+    padding: 2em;
+    border-radius: 5%;
+    width: 300px;
+    background: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+}
+
+header h1{
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1.2em 0 0.5em;
+}
+header img{
+    background: rgba(131, 144, 163, .3);
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.feedback{
+    color: hsl(216, 12%, 54%);
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.btn{
+    color: hsl(0, 0%, 100%);
+    background: rgba(131, 144, 163, .3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 1.2em 2em 0;
+    border: none;
+}
+.btn:hover{
+    background: hsl(217, 12%, 63%);
+}
+
+.enviar{
+    width: 95%;
+    border-radius: 50px;
+    border: none;
+    background: rgb(251, 116, 19);
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0.8em;
+}
+
+.enviar:hover{
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
