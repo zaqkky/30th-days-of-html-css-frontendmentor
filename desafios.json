@@ -28,5 +28,12 @@
         "thumbnail": "../miniaturas/day04.jpeg",
         "liveDemoUrl": "../D4 - Interactive rating/index.html"
         
+    },
+    {
+        "name": "Dia 05",
+        "description": "sing up- form finalmente fiz um formulario html. e eo primeiro desafio que consgue aplicar resposivide 🎉",
+        "thumbnail": "../miniaturas/day05.jpeg",
+        "liveDemoUrl": "../D5 - Intro component with sign-up form"
+        
     }
 ]
