@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 100%, 74%);
+    display: flex;
+    background-image: url(./imgs/bg-intro-desktop.png);
+    color: whitesmoke;
+}
+
+.header-wapper {
+    width: 50%;
+    margin: 15em 3em 0em 7em;
+}
+
+main {
+    width: 50%;
+    margin: 10em 7em 0em 0em;
+}
+
+.header-wapper h1 {
+    width: 80%;
+    font-size: 2.7rem;
+    line-height: 1.2;
+}
+
+.header-wapper p {
+    font-size: 1rem;
+}
+
+
+.try-free {
+    background: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    padding: 0.2em;
+    text-align: center;
+    margin: 0 0 1em 0;
+    box-shadow: 0 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro {
+    background: whitesmoke;
+    box-shadow: 0 8px 0px rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    border-radius: 10px;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.user-infos {
+    display: block;
+    width: 90%;
+    margin: 1em auto;
+    border-radius: 5px;
+    border: 1px solid rgb(203, 202, 202);
+    padding: 1em;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    color: rgb(125, 121, 121);
+    font-weight: 700;
+}
+
+.btn {
+    display: block;
+    width: 95%;
+    margin: 0.5em auto;
+    padding: 1em;
+    background: rgba(56, 204, 140);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 0px rgba(41, 147, 101, 0.6);
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background: rgb(73, 223, 158);
+}
+.terms {
+    width: 80%;
+    margin: 0 auto 2em;
+    color: rgb(125, 121, 121);
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.terms a {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(0, 100%, 74%);
+}
+
+
+@media (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(./imgs/bg-intro-mobile.png);
+        color: whitesmoke;
+    }
+
+    header {
+        text-align: center;
+        margin: 2.7em 1.1em;
+        font-size: 1rem;
+    }
+
+    header p {
+        font-size: 1rem;
+        color: rgb(237, 236, 236);
+    }
+
+    .try-free {
+        background: hsl(248, 32%, 49%);
+        padding: 0.2em;
+        border-radius: 10px;
+        text-align: center;
+        margin: 0 auto 1.8em;
+        width: 90%;
+        box-shadow: 0 8px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .try-free p {
+        width: 60%;
+        margin: 1em auto;
+
+    }
+
+    fieldset {
+        border: none;
+    }
+
+    .cadastro {
+        width: 85%;
+        margin: 0 auto 5em;
+        padding: 0.5em;
+        border-radius: 10px;
+        background: whitesmoke;
+        box-shadow: 0 8px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .user-infos {
+        width: 90%;
+        margin: 0.5em auto;
+        border-radius: 5px;
+        border: 1px solid rgb(203, 202, 202);
+        padding: 1em;
+        text-transform: capitalize;
+    }
+
+    ::placeholder {
+        color: rgb(125, 121, 121);
+        font-weight: 700;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0.5em 0;
+        padding: 1em;
+        background: rgba(56, 204, 140);
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 5px 0px rgba(41, 147, 101, 0.6);
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .terms {
+        width: 80%;
+        margin: 0 auto;
+        color: rgb(125, 121, 121);
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .terms a {
+        text-decoration: none;
+        font-weight: 700;
+        color: hsl(0, 100%, 74%);
+    }
+}

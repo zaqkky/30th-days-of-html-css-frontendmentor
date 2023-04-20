@@ -25,7 +25,7 @@
     {
         "name": "Dia 04",
         "description": "rating componente era pra ser interativo, mas falhei. acontece",
-        "thumbnail": "../miniaturas/day04.jpg",
+        "thumbnail": "../miniaturas/day04.jpeg",
         "liveDemoUrl": "../D4 - Interactive rating/index.html"
         
     }
