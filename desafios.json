@@ -36,4 +36,12 @@
         "liveDemoUrl": "../D5 - Intro component with sign-up form"
         
     }
+    ,
+    {
+        "name": "Dia 06",
+        "description": "testimonials-grid-section-main, primeira vez usando grid foi bem dificil mais deu certo no final. eu acho",
+        "thumbnail": "../miniaturas/day06.jpg",
+        "liveDemoUrl": "../D6 - testimonials-grid-section-main"
+        
+    }
 ]
