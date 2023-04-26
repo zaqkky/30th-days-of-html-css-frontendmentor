@@ -44,4 +44,12 @@
         "liveDemoUrl": "../D6 - testimonials-grid-section-main"
         
     }
+    ,
+    {
+        "name": "Dia 07",
+        "description": "um simples profile card, nada de muito mirabolando, acho que vou começar a pega Design de lugares que eu achar legal, nao vou me reter apnas ao frontend mentor",
+        "thumbnail": "../miniaturas/day07.jpeg",
+        "liveDemoUrl": "../D7 - profile-card-component-main"
+        
+    }
 ]
