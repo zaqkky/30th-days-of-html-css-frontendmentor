@@ -52,4 +52,12 @@
         "liveDemoUrl": "../D7 - profile-card-component-main"
         
     }
+    ,
+    {
+        "name": "Dia 08",
+        "description": "Fylo data storage component, so fiz pra smartPhone, ja ta tarde e eu preciso dormir ahhhhhh! ",
+        "thumbnail": "../miniaturas/day08.jpeg",
+        "liveDemoUrl": "../D8 - Fylo data storage component"
+        
+    }
 ]
