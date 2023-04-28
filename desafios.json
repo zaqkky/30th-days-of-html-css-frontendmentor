@@ -60,4 +60,12 @@
         "liveDemoUrl": "../D8 - Fylo data storage component"
         
     }
+    ,
+    {
+        "name": "Dia 09",
+        "description": "age-calculator-app-main, eu descidi incluir js no desafio hehe pra deixar mais divertido.",
+        "thumbnail": "../miniaturas/day09.jpeg",
+        "liveDemoUrl": "../D9 - age-calculator-app-main"
+        
+    }
 ]
